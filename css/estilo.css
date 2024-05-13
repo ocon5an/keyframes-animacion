@@ -1,0 +1,145 @@
+
+/*
+div{
+    width: 100px;
+    height: 100px;
+    background: rgb(204, 238, 236);
+    position: relative;
+    animation: uno 5s infinite;
+}
+*/
+
+body{
+    background: rgb(241, 221, 240);
+}
+
+#contenedor{
+    width: 500px;
+    height: 200px;
+    background: rgb(217, 204, 238);
+    position: relative;
+    display: flex;
+    /*animation: uno 5s infinite;*/
+}
+
+@keyframes uno {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+#dos{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    background: rgb(103, 103, 114);
+    animation: dos 5s infinite;
+}
+
+@keyframes dos {
+    0% {top: 0px;}
+    25% {top: 200px;}
+    75% {top: 50px;}
+}
+
+#tres{
+    width: 300px;
+    height: 264px;
+    position: relative;
+    background: rgb(117, 88, 112);
+    animation: tres 5s infinite;
+}
+
+@keyframes tres {
+    0% {top: 0px;
+        background: rgb(125, 100, 100);
+        width: 100px;
+    }
+    100% {top: 200px;
+        background: rgb(112, 38, 38);
+        width: 300px;
+    }
+}
+
+#cuatro{
+    width: 105px;
+    height: 100px;
+    position: relative;
+    background: rgb(89, 88, 117);
+    animation: cuatro 5s infinite;
+}
+
+@keyframes cuatro{
+    0%  {top: 0px;   left: 0px;   background: rgb(120, 79, 79);}
+    25% {top: 0px;   left: 100px; background: rgb(115, 115, 159) ;}
+    50% {top: 100px; left: 100px; background: rgb(153, 113, 153) ;}
+    75% {top: 100px; left: 0px;   background: rgb(140, 104, 110);}
+    100%{top: 0px;   left: 0px;   background: rgb(159, 143, 114) ;}
+}
+
+#cinco{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: rgb(89, 88, 117);
+    animation: cinco 20s infinite;
+}
+
+@keyframes cinco{
+    0%  {top: 100px;   left: 400px;   background: rgb(120, 79, 79);}
+    25% {top: 100px;   left: 300px; background: rgb(115, 115, 159) ;}
+    50% {top: 100px;   left: 200px; background: rgb(153, 113, 153) ;}
+    75% {top: 100px;   left: 100px;   background: rgb(140, 104, 110);}
+    100%{top: 100px;   left: 0px;   background: rgb(159, 143, 114) ;}
+
+}
+
+#seis{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: rgb(89, 88, 117);
+    animation: seis 20s infinite;
+}
+
+@keyframes seis{
+    0%  {top: 100px;   left: 200px;   background: rgb(120, 79, 79);}
+    25% {top: 100px;   left: 100px; background: rgb(115, 115, 159) ;}
+    50% {top: 100px;   left: 0px; background: rgb(153, 113, 153) ;}
+    75% {top: 100px;     left: -100px;   background: rgb(140, 104, 110);}
+    100%{top: 100px;   left: 300px;   background: rgb(159, 143, 114) ;}
+
+}
+
+#cinco{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: rgb(89, 88, 117);
+    animation: cinco 20s infinite;
+}
+
+@keyframes cinco{
+    0%  {top: 100px;   left: 400px;   background: rgb(120, 79, 79);}
+    25% {top: 100px;   left: 300px; background: rgb(115, 115, 159) ;}
+    50% {top: 100px;   left: 200px; background: rgb(153, 113, 153) ;}
+    75% {top: 100px;   left: 100px;   background: rgb(140, 104, 110);}
+    100%{top: 100px;   left: 0px;   background: rgb(159, 143, 114) ;}
+
+}
+
+#cinco{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: rgb(89, 88, 117);
+    animation: cinco 20s infinite;
+}
+
+@keyframes cinco{
+    0%  {top: 100px;   left: 400px;   background: rgb(120, 79, 79);}
+    25% {top: 100px;   left: 300px; background: rgb(115, 115, 159) ;}
+    50% {top: 100px;   left: 200px; background: rgb(153, 113, 153) ;}
+    75% {top: 100px;   left: 100px;   background: rgb(140, 104, 110);}
+    100%{top: 100px;   left: 0px;   background: rgb(159, 143, 114) ;}
+
+}
